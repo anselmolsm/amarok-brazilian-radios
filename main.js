@@ -35,7 +35,7 @@ function Station( name, url )
 {
     this.name = name;
     this.url = url;
-    }
+}
 
 categories = new Object;
 
@@ -81,7 +81,8 @@ categories["  Sao Paulo"]= new Array(
     new Station( "Nativa", "http://servidor25.crossdigital.com.br:8000/nativafm"),
     new Station( "Rádio Mitsubishi", "http://servidor24.crossdigital.com.br:8000/mtsubishifm"),
     new Station( "Rádio Trânsito", "http://74.86.203.122:8000/radiotransito"),
-    new Station( "Nova Brasil FM", "http://00086.cdn.upx.net.br/listen.wmx")
+    new Station( "Nova Brasil FM", "http://00086.cdn.upx.net.br/listen.wmx"),
+    new Station( "Jovem Pan AM", "mms://p.mm.uol.com.br/ampan")
 );
 
 categories["  Salvador"]= new Array(
@@ -105,8 +106,8 @@ function onPopulating( level, callbackData, filter )
 {
 	// For some reason Amarok appends a "%20", remove it
 	filter = filter.toLowerCase().replace("%20","");
-	
-	if ( level == 1 ) 
+
+	if ( level == 1 )
 	{
 		for( att in categories )
 		{
@@ -124,10 +125,10 @@ function onPopulating( level, callbackData, filter )
 				}
 				if(!hasItems) continue;
 			}
-			
+
 			var cover = Amarok.Info.scriptPath() + "/" + "radio.png";
 			Amarok.debug ("att: " + att + ", " + categories[att].name);
-	
+
 			item = Amarok.StreamItem;
 			item.level = 1;
 			item.callbackData = att;
@@ -140,7 +141,7 @@ function onPopulating( level, callbackData, filter )
 		}
 		script.donePopulating();
 	}
-	else if ( level == 0 ) 
+	else if ( level == 0 )
 	{
 		Amarok.debug( " Populating station level..." );
 		//add the station streams as leaf nodes

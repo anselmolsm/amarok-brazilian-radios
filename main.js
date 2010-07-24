@@ -40,54 +40,54 @@ function Station( name, url )
 categories = new Object;
 
 categories["  Belo Horizonte"]= new Array(
-    new Station( "CBN BH", "http://wm-sgr-live.globo.com/sgr_off_cbnbh_live.wma" )
+    new Station( "CBN BH", "http://wm-sgr-live.globo.com/sgr_off_cbnbh_live.wma"),
     new Station( "Band News BH", "http://servidor25.crossdigital.com.br:8000/bandnewsbelohorizonte")
-)
+);
 
 categories["  Brasilia"]= new Array(
-    new Station( "CBN BSB", "http://wm-sgr-live.globo.com/sgr_off_cbnbsb_live.wma" )
-    new Station( "Band News BSB", "http://servidor25.crossdigital.com.br:8000/bandnewsbrasilia")
+    new Station( "CBN BSB", "http://wm-sgr-live.globo.com/sgr_off_cbnbsb_live.wma"),
+    new Station( "Band News BSB", "http://servidor25.crossdigital.com.br:8000/bandnewsbrasilia"),
     new Station( "Nova Brasil FM", "http://00086.cdn.upx.net.br/listen.wmx")
-)
+);
 
 categories["  Campinas"]= new Array(
     new Station( "Nova Brasil FM", "http://00086.cdn.upx.net.br/listen.wmx")
-)
+);
 
 categories["  Curitiba"]= new Array(
     new Station( "Band News Curitiba", "http://servidor25.crossdigital.com.br:8000/bandnewscuritiba")
-)
+);
 
 categories["  Porto Alegre"]= new Array(
     new Station( "Band News POA", "http://servidor25.crossdigital.com.br:8000/bandnewsportoalegre")
-)
+);
 
 categories["  Recife"]= new Array(
     new Station( "Nova Brasil FM", "http://00086.cdn.upx.net.br/listen.wmx")
-)
+);
 
 categories["  Rio de Janeiro"]= new Array(
-    new Station( "CBN RJ", "http://wm-sgr-live.globo.com/sgr_off_cbnfmrj_live.wma" )
+    new Station( "CBN RJ", "http://wm-sgr-live.globo.com/sgr_off_cbnfmrj_live.wma"),
     new Station( "Band News RJ", "http://servidor25.crossdigital.com.br:8000/bandnewsrj")
-)
+);
 
 
 categories["  Sao Paulo"]= new Array(
-    new Station( "Kiss FM", "http://75.126.86.2:8098/" ),
-    new Station( "CBN SP", "http://wm-sgr-live.globo.com/sgr_off_cbnfmsp_live.wma" )
-    new Station( "Bandeirantes AM", "http://servidor25.crossdigital.com.br:8000/bandeirantesam")
-    new Station( "Band News SP", "http://servidor25.crossdigital.com.br:8000/bandnewssp")
-    new Station( "Band FM", "http://servidor24.crossdigital.com.br:8000/bandfm")
-    new Station( "Nativa", "http://servidor25.crossdigital.com.br:8000/nativafm")
-    new Station( "Rádio Mitsubishi", "http://servidor24.crossdigital.com.br:8000/mtsubishifm")
-    new Station( "Rádio Trânsito", "http://74.86.203.122:8000/radiotransito")
+    new Station( "Kiss FM", "http://75.126.86.2:8098/"),
+    new Station( "CBN SP", "http://wm-sgr-live.globo.com/sgr_off_cbnfmsp_live.wma"),
+    new Station( "Bandeirantes AM", "http://servidor25.crossdigital.com.br:8000/bandeirantesam"),
+    new Station( "Band News SP", "http://servidor25.crossdigital.com.br:8000/bandnewssp"),
+    new Station( "Band FM", "http://servidor24.crossdigital.com.br:8000/bandfm"),
+    new Station( "Nativa", "http://servidor25.crossdigital.com.br:8000/nativafm"),
+    new Station( "Rádio Mitsubishi", "http://servidor24.crossdigital.com.br:8000/mtsubishifm"),
+    new Station( "Rádio Trânsito", "http://74.86.203.122:8000/radiotransito"),
     new Station( "Nova Brasil FM", "http://00086.cdn.upx.net.br/listen.wmx")
-)
+);
 
 categories["  Salvador"]= new Array(
-    new Station( "Band News Salvador", "http://servidor25.crossdigital.com.br:8000/bandnewssalvador")
+    new Station( "Band News Salvador", "http://servidor25.crossdigital.com.br:8000/bandnewssalvador"),
     new Station( "Nova Brasil FM", "http://00086.cdn.upx.net.br/listen.wmx")
-)
+);
 
 function BrazilianRadios()
 {

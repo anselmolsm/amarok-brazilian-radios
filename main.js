@@ -92,7 +92,7 @@ categories["  Salvador"]= new Array(
 
 function BrazilianRadios()
 {
-    ScriptableServiceScript.call( this, "Brazilian Radios", 2, "List of many Portuguese-speaking radios", "Radio directly from the Brazil", true);
+    ScriptableServiceScript.call( this, "Brazilian Radios", 2, "List of Brazilian radios", "A collection of radios from many cities in Brazil", true);
     Amarok.debug( "ok." );
 }
 

@@ -73,6 +73,7 @@ categories["  Rio de Janeiro"]= new Array(
 
 
 categories["  Sao Paulo"]= new Array(
+    new Station( "Backstage", "http://67.212.166.210:8424"),
     new Station( "Band News SP", "http://servidor25.crossdigital.com.br:8000/bandnewssp"),
     new Station( "Band FM", "http://servidor24.crossdigital.com.br:8000/bandfm"),
     new Station( "Bandeirantes AM", "http://servidor25.crossdigital.com.br:8000/bandeirantesam"),

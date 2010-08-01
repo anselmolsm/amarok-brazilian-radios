@@ -40,13 +40,13 @@ function Station( name, url )
 categories = new Object;
 
 categories["  Belo Horizonte"]= new Array(
-    new Station( "CBN BH", "http://wm-sgr-live.globo.com/sgr_off_cbnbh_live.wma"),
-    new Station( "Band News BH", "http://servidor25.crossdigital.com.br:8000/bandnewsbelohorizonte")
+    new Station( "Band News BH", "http://servidor25.crossdigital.com.br:8000/bandnewsbelohorizonte"),
+    new Station( "CBN BH", "http://wm-sgr-live.globo.com/sgr_off_cbnbh_live.wma")
 );
 
 categories["  Brasilia"]= new Array(
-    new Station( "CBN BSB", "http://wm-sgr-live.globo.com/sgr_off_cbnbsb_live.wma"),
     new Station( "Band News BSB", "http://servidor25.crossdigital.com.br:8000/bandnewsbrasilia"),
+    new Station( "CBN BSB", "http://wm-sgr-live.globo.com/sgr_off_cbnbsb_live.wma"),
     new Station( "Nova Brasil FM", "http://00086.cdn.upx.net.br/listen.wmx")
 );
 
@@ -67,22 +67,22 @@ categories["  Recife"]= new Array(
 );
 
 categories["  Rio de Janeiro"]= new Array(
-    new Station( "CBN RJ", "http://wm-sgr-live.globo.com/sgr_off_cbnfmrj_live.wma"),
-    new Station( "Band News RJ", "http://servidor25.crossdigital.com.br:8000/bandnewsrj")
+    new Station( "Band News RJ", "http://servidor25.crossdigital.com.br:8000/bandnewsrj"),
+    new Station( "CBN RJ", "http://wm-sgr-live.globo.com/sgr_off_cbnfmrj_live.wma")
 );
 
 
 categories["  Sao Paulo"]= new Array(
-    new Station( "Kiss FM", "http://75.126.86.2:8098/"),
-    new Station( "CBN SP", "http://wm-sgr-live.globo.com/sgr_off_cbnfmsp_live.wma"),
-    new Station( "Bandeirantes AM", "http://servidor25.crossdigital.com.br:8000/bandeirantesam"),
     new Station( "Band News SP", "http://servidor25.crossdigital.com.br:8000/bandnewssp"),
     new Station( "Band FM", "http://servidor24.crossdigital.com.br:8000/bandfm"),
+    new Station( "Bandeirantes AM", "http://servidor25.crossdigital.com.br:8000/bandeirantesam"),
+    new Station( "CBN SP", "http://wm-sgr-live.globo.com/sgr_off_cbnfmsp_live.wma"),
+    new Station( "Jovem Pan AM", "mms://p.mm.uol.com.br/ampan"),
+    new Station( "Kiss FM", "http://75.126.86.2:8098/"),
     new Station( "Nativa", "http://servidor25.crossdigital.com.br:8000/nativafm"),
-    new Station( "Rádio Mitsubishi", "http://servidor24.crossdigital.com.br:8000/mtsubishifm"),
-    new Station( "Rádio Trânsito", "http://74.86.203.122:8000/radiotransito"),
     new Station( "Nova Brasil FM", "http://00086.cdn.upx.net.br/listen.wmx"),
-    new Station( "Jovem Pan AM", "mms://p.mm.uol.com.br/ampan")
+    new Station( "Rádio Mitsubishi", "http://servidor24.crossdigital.com.br:8000/mtsubishifm"),
+    new Station( "Rádio Trânsito", "http://74.86.203.122:8000/radiotransito")
 );
 
 categories["  Salvador"]= new Array(

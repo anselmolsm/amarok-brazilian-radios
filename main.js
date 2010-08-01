@@ -166,15 +166,15 @@ function onPopulating( level, callbackData, filter )
 		script.donePopulating();
 	}
 }
-/*
+
 function onCustomize() {
     var currentDir = Amarok.Info.scriptPath() + "/";
     var iconPixmap = new QPixmap(currentDir+"icon.png");
     script.setIcon(iconPixmap);
 }
-*/
+
 Amarok.configured.connect( onConfigure );
 
 script = new BrazilianRadios();
 script.populate.connect( onPopulating );
-//script.customize.connect( onCustomize );
+script.customize.connect( onCustomize );

@@ -68,7 +68,9 @@ categories["  Recife"]= new Array(
 
 categories["  Rio de Janeiro"]= new Array(
     new Station( "Band News RJ", "http://servidor25.crossdigital.com.br:8000/bandnewsrj"),
-    new Station( "CBN RJ", "http://wm-sgr-live.globo.com/sgr_off_cbnfmrj_live.wma")
+    new Station( "CBN RJ", "http://wm-sgr-live.globo.com/sgr_off_cbnfmrj_live.wma"),
+    new Station( "Cidade Web Rock", "mms://200.222.115.50/CidadeWebRock_CidadeWebrock128"),
+    new Station( "JBFM", "mms://200.222.115.52/OiFM_JBFM")
 );
 
 

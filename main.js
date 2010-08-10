@@ -58,6 +58,10 @@ categories["  Curitiba"]= new Array(
     new Station( "Band News Curitiba", "http://servidor25.crossdigital.com.br:8000/bandnewscuritiba")
 );
 
+categories["  Fortaleza"]= new Array(
+    new Station( "Universitária FM", "mms://200.129.35.230:8080/ouvir")
+);
+
 categories["  Porto Alegre"]= new Array(
     new Station( "Band News POA", "http://servidor25.crossdigital.com.br:8000/bandnewsportoalegre")
 );

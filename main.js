@@ -41,7 +41,9 @@ categories = new Object;
 
 categories["  Belo Horizonte"]= new Array(
     new Station( "Band News BH", "http://servidor25.crossdigital.com.br:8000/bandnewsbelohorizonte"),
-    new Station( "CBN BH", "http://wm-sgr-live.globo.com/sgr_off_cbnbh_live.wma")
+    new Station( "CBN BH", "http://wm-sgr-live.globo.com/sgr_off_cbnbh_live.wma"),
+    new Station( "Guarani FM", "http://cdn.upx.net.br/listen/00108.wmx"),
+    new Station( "Antena 1", "mms://wmedialive.telium.com.br/antenaum")
 );
 
 categories["  Brasilia"]= new Array(

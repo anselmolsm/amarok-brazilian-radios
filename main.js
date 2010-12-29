@@ -77,6 +77,13 @@ categories["  Rio de Janeiro"]= new Array(
     new Station( "Band News RJ", "http://servidor25.crossdigital.com.br:8000/bandnewsrj"),
     new Station( "CBN RJ", "http://wm-sgr-live.globo.com/sgr_off_cbnfmrj_live.wma"),
     new Station( "Cidade Web Rock", "mms://200.222.115.50/CidadeWebRock_CidadeWebrock128"),
+    new Station( "Cidade Classic Rock", "mms://200.222.115.52/CidadeWebRock_ClassicRock?ticket=000001907124&crc=1712891669"),
+    new Station( "Cidade Web Metal", "mms://200.222.115.51/CidadeWebRock_Metal?ticket=000001182157&crc=1876042995"),
+    new Station( "Cidade Setentona", "mms://200.222.115.51/CidadeWebRock_Setentona?ticket=000000455298&crc=317125137"),
+    new Station( "Cidade Oitentona", "mms://200.222.115.51/CidadeWebRock_oitentona128?ticket=000001906707&crc=1047356258"),
+    new Station( "Cidade Noventona", "mms://200.222.115.51/CidadeWebRock_noventona?ticket=000001906867&crc=899011349"),
+    new Station( "Cidade Drop Rock", "mms://200.222.115.52/CidadeWebRock_DropRock?ticket=000001907575&crc=420644720"),
+    new Station( "Cidade Rock Brasil", "mms://200.222.115.50/CidadeWebRock_RockBrasil?ticket=000001908286&crc=1724460576"),
     new Station( "JBFM", "mms://200.222.115.52/OiFM_JBFM")
 );
 

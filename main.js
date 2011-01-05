@@ -63,7 +63,8 @@ categories["  Fortaleza"]= new Array(
 );
 
 categories["  Porto Alegre"]= new Array(
-    new Station( "Band News POA", "http://servidor25.crossdigital.com.br:8000/bandnewsportoalegre")
+    new Station( "Band News POA", "http://servidor25.crossdigital.com.br:8000/bandnewsportoalegre"),
+    new Station( "Ipanema FM", "http://65.60.52.122:8700")
 );
 
 categories["  Recife"]= new Array(
@@ -79,7 +80,8 @@ categories["  Rio de Janeiro"]= new Array(
 
 
 categories["  Sao Paulo"]= new Array(
-    new Station( "Backstage", "http://67.212.166.210:8424"),
+    new Station( "Backstage Heavy Rock", "http://67.212.166.210:8424"),
+    new Station( "Backstage Classic Rock", "http://65.60.52.122:8700"),
     new Station( "Band News SP", "http://servidor25.crossdigital.com.br:8000/bandnewssp"),
     new Station( "Band FM", "http://servidor24.crossdigital.com.br:8000/bandfm"),
     new Station( "Bandeirantes AM", "http://servidor25.crossdigital.com.br:8000/bandeirantesam"),

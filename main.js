@@ -66,7 +66,7 @@ categories["  Fortaleza"]= new Array(
 
 categories["  Porto Alegre"]= new Array(
     new Station( "Band News POA", "http://servidor25.crossdigital.com.br:8000/bandnewsportoalegre"),
-    new Station( "Ipanema FM", "http://65.60.52.122:8700")
+    new Station( "Ipanema FM", "http://p.mm.uol.com.br/ipanema_alta")
 );
 
 categories["  Recife"]= new Array(

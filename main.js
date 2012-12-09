@@ -4,7 +4,7 @@
 #                                                                         #
 #   Copyright                                                             #
 #                                                                         #
-#   (C)  2010 Anselmo Lacerda Silveira de Melo <anselmolsm@gmail.com>     #
+#   (C)  2010-2012 Anselmo L. S. Melo <anselmolsm@gmail.com>     #
 #   (C)  2010 Emile de Weerd <mederel+radionederland@gmail.com>           #
 #   (C)  2009 Àlvar Cuevas i Fajardo <alvar@cuevas.cat>                   #
 #   (C)  2008 Eirik Johansen Bjørgan  <eirikjbj@gmail.com>                #
@@ -49,11 +49,11 @@ categories["  Belo Horizonte"]= new Array(
 categories["  Brasilia"]= new Array(
     new Station( "Band News BSB", "http://servidor25.crossdigital.com.br:8000/bandnewsbrasilia"),
     new Station( "CBN BSB", "http://wm-sgr-live.globo.com/sgr_off_cbnbsb_live.wma"),
-    new Station( "Nova Brasil FM", "http://00086.cdn.upx.net.br/listen.wmx")
+    new Station( "Nova Brasil FM", "http://187.17.67.228:9052")
 );
 
-categories["  Campinas"]= new Array(
-    new Station( "Nova Brasil FM", "http://00086.cdn.upx.net.br/listen.wmx")
+categories["  Campinas"]= new Array
+(    new Station( "Nova Brasil FM", "http://187.17.67.228:9052")
 );
 
 categories["  Curitiba"]= new Array(
@@ -70,7 +70,7 @@ categories["  Porto Alegre"]= new Array(
 );
 
 categories["  Recife"]= new Array(
-    new Station( "Nova Brasil FM", "http://00086.cdn.upx.net.br/listen.wmx")
+    new Station( "Nova Brasil FM", "http://187.17.67.228:9052")
 );
 
 categories["  Rio de Janeiro"]= new Array(
@@ -98,14 +98,14 @@ categories["  Sao Paulo"]= new Array(
     new Station( "Jovem Pan AM", "mms://p.mm.uol.com.br/ampan"),
     new Station( "Kiss FM", "http://75.126.86.2:8098/"),
     new Station( "Nativa", "http://servidor25.crossdigital.com.br:8000/nativafm"),
-    new Station( "Nova Brasil FM", "http://00086.cdn.upx.net.br/listen.wmx"),
+    new Station( "Nova Brasil FM", "http://187.17.67.228:9052"),
     new Station( "Rádio Mitsubishi", "http://servidor24.crossdigital.com.br:8000/mtsubishifm"),
     new Station( "Rádio Trânsito", "http://74.86.203.122:8000/radiotransito")
 );
 
 categories["  Salvador"]= new Array(
     new Station( "Band News Salvador", "http://servidor25.crossdigital.com.br:8000/bandnewssalvador"),
-    new Station( "Nova Brasil FM", "http://00086.cdn.upx.net.br/listen.wmx")
+    new Station( "Nova Brasil FM", "http://187.17.67.228:9052")
 );
 
 function BrazilianRadios()
